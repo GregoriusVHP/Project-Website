@@ -9,28 +9,25 @@
                 padding:0px;
                 box-sizing: border-box;
             }
+        
+           body {
+            background-color: rgb(191, 246, 246);
+           }
             .tm-container-nav{
-                padding: 15px 16px 33px 16px;
+                padding: 17px 16px 48px 16px;
                 background-color: rgb(243, 208, 162);
                 border-width: 2px;
                 border-style: solid;
                 border-color: cadetblue;
             }
-           body {
-            background-color: rgb(191, 246, 246);
-           }
-            .link {
-                float: right;
-            }
-
-            .link a{
+            .About {
                 display: flexbox;
-                padding: 5px;
-                text-align: center;
+                float: right;
+                
             }
 
             .name{
-                display: flexbox;
+                display: flex;
                 float:left;
                 text-align: left;
                 text-decoration: black;
@@ -40,13 +37,8 @@
     </head>
     <body>
         <div class="tm-container-nav">
-            <div class="name">
-                <h3>Gregorius</h3>
-            </div>
-            <div class="link">
-                <a href="#About">About</a>
-                <a href="#Contact">Contact</a>
-              </div>
+            <div class="name"><h1>Gregorius</h1></div>
+            <div class="About" id="About">About</div>
         </div>
         <div class="tm-container-content">
         </div>
