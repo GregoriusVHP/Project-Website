@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            About me
+            Page
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
@@ -9,35 +9,47 @@
             margin:0px;
             padding:0px;
             box-sizing: border-box;
+            
             }
            
            body {
             background-color: #ffff;
            }
 
-           .wrapper{
-             display: flex;
-             align-items: center;
-             justify-content: space-between;
-             padding: 15px;
-             width:1355px;
-             height: 80px;
-             background-color: rgb(54, 187, 143);
-           }
-		   
-           .navigation {
-             display: flex;
-             justify-content: center;
-             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           .name {
+            float: left;
+            color: azure;
+            display: block;
+            flex-direction: row;
+            padding-top: 12px;
+            padding-left: 80px;
+            justify-content: center;
+            font-size: 40px;
+            font-family:Verdana, sans-serif ;
            }
 
-           .navigation>li{
-            list-style: none;
-            padding-top: 15px;
-            padding-bottom:15px ;
+           .wrapper{
+            overflow: hidden;
+            background-color: #333;
+            top: 0; 
+            width: 100%;
+            height: 10%;
+           }
+
+           .wrapper a{
+            float: right;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 25px 16px;
             padding-right: 50px;
+            text-decoration: none;
+            font-size: 25px;
            }
            
+           .wrapper a:hover{
+            color: #b1b1b1;
+           }
            .title{
             font-size:xx-large;
             padding-left: 50;
@@ -45,9 +57,39 @@
            }
 
            #banner-img{
-             width: 1355px;
-             height: 300px;
-             background-image: url(Banner.jpg);
+             background-image: url(Banner3.jpg);
+             padding: 150px;
+             
+           }
+
+           .content-wrapper{
+            padding: 50px;
+            background-color: rgb(1, 67, 29); 
+           }
+
+           .content-box{
+            background-color:rgba(255, 246, 234, 0.95);
+            padding: 5px 1px 9px 1px ;
+            text-align: center;
+            margin: 10px;
+            border-radius:100px;
+            opacity: 95%;
+           }
+
+           .content-box h1{
+            font-size: 70px;
+          }
+
+          .content-box p{
+            margin-right: 40px;
+            margin-left: 40px;
+            margin-bottom: 40px;
+            font-size: 30px;
+          }
+
+           img{            
+            width: 100%;
+            height: 90%;
            }
            
            
@@ -55,17 +97,29 @@
     </head>
     <body>
             <nav class="wrapper">
-                <div class="title">Gregorius</div>
-                 <ul class="navigation">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                 </ul>
+              <div class="name">Gregorius</div>
+              <a href="#About">About</a>
+              <a href="#Contact">Contact</a>
+              <a href="#"></a>
             </nav>
-            <div id="banner-img"></div>
-            <div class="content">
-               <div class="background">
-                <h1>About me</h1>
+            <section class="banner">
+              <img src="banner3.jpg" class="center">
+            </section>
+            <div class="content-wrapper">
+               <div class="content-box" id="About">
+                  <h1>About me</h1>
+                  <br>
+                  <p>Hello! I'm Gregorius Valery Hermawan Prasetyo, and I'm passionate about exploring the world of technology and learning new things.
+                    I enjoy programming, reading fiction books, playing video games, and spending time outdoors. Cycling and playing football are some of my favorite weekend activities.
+                    My taste buds dance to the flavors of sushi and a well-made pizza. I also have a soft spot for a perfectly brewed cup of coffee.
+                    When it comes to subjects, I find myself drawn to computer science and chemistry. The logical challenges and problem-solving aspects of these subjects intrigue me.
+                  </p>              
                </div>
+            </div>
+            <div class="footer-wrapper">
+              <div class="footer-content">
+                
+              </div>
             </div>
     </body>
 </html>
