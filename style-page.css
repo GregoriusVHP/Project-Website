@@ -14,7 +14,7 @@
     color: azure;
     display: block;
     flex-direction: row;
-    padding-top: 12px;
+    padding-top: 17px;
     padding-left: 80px;
     justify-content: center;
     font-size: 40px;
@@ -34,7 +34,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 25px 16px;
+    padding: 35px 16px;
     padding-right: 50px;
     text-decoration: none;
     font-size: 25px;
@@ -56,13 +56,13 @@
    }
 
    .content-wrapper{
-    padding: 50px;
+    padding: 50px 60px 70px 60px;
     background-color: rgb(1, 67, 29); 
    }
 
    .content-box{
     background-color:rgba(255, 246, 234, 0.95);
-    padding: 5px 1px 9px 1px ;
+    padding: 7px 1px 9px 1px ;
     text-align: center;
     margin: 10px 20px;
     border-radius:100px;
@@ -85,33 +85,26 @@
     height: 90%;
    }
    
-  .footer-wrapper{
-    background-color: #333;
-    padding: 6px;
-  } 
-  .footer-content{
-    padding: 5px;
-    justify-content: center;
-    display: block;
-  }
-
-  .footer-content h1{
-    margin-left:50px;
-    color:rgba(175, 173, 170, 0.95);
+  footer{
+    background-color:#4a4b4a;
     text-align: center;
-    font-size: 50px;
   }
-  
- .material-icons{
-  justify-items: center;
-  justify-content: center;
- }
 
-.footer-content h3{
-  color: #effde7;
-  display: inline-flex;
-  position: absolute;
-  padding-left: 10px;
-  font-size: 30px;
-  text-align: center;
+  footer h1{
+    color:#ffffff
+  }
+
+  footer p{
+    color: #ffff;
+    font-size: larger;
+  }
+.bar{
+  background-color: #4a4b4a;
+  padding: 10px;
+}
+
+.email-wrapper{
+  color: rgb(3, 167, 17);
+  margin-left: 250px;
+  display: flex;
 }
