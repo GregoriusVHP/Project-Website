@@ -105,6 +105,16 @@
 
 .email-wrapper{
   color: rgb(3, 167, 17);
-  margin-left: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.phone-wrapper{
+  color: rgb(3, 167, 17);
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
   display: flex;
 }
