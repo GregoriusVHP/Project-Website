@@ -10,10 +10,18 @@
     <body>
         <heading>
         <div class="sidebar">
-            <a href="" class="logo"><img src="FOMO/2.png" alt="Logo"></a>
+            <a href="#" class="logo"><img src="FOMO/2.png" alt="Logo"></a>
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="" alt="">
+                </div>
+                <div class="name">
+                    <h1></h1>
+                    <img src="" alt="">
+                </div>
+            </div>
         </div>
         <div class="main-home"></div>
-        </div>
         </heading>
         
     </body>
