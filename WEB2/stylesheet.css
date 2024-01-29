@@ -40,3 +40,48 @@ body {
 .logo img{
   width: 140px;
 }
+
+.profile {
+  : center;
+}
+.profile-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+.profile-image img{
+  width: 80px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0.4rem;
+}
+
+.name h1{
+  font-size: 1.1rem;
+}
+
+.name img{
+  margin-left: 4px;
+  object-fit: contain;
+}
+
+.profile-image span{
+  font-size: 0.938rem;
+  font-weight: 400;
+}
+
+.about {
+
+}
