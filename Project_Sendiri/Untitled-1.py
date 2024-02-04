@@ -83,5 +83,4 @@ def loop():
             print("\n")
         else:
             print("\nTerimakasih telah mencoba program ini :)")
-            break
 main()
