@@ -1,13 +1,13 @@
-* { /* Reset CSS */
+/* Reset CSS */
+* {
   box-sizing: border-box;
-  margin: 1px;
+  margin: 0px;
   padding-left: 0px;
 }
 
 body {
   font-family: Arial, sans-serif;
   background-color: #fafafa;
-  
 }
 
 header {
@@ -24,10 +24,13 @@ header {
   font-weight: bold;
 }
 
-.logo img {
-  padding: 40px;
-  width: 15%;
+.logo img{
+  border-radius: 4rem;
+  display: grid;
+  width: 10%;
+  height: 2%;
 }
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -43,21 +46,16 @@ nav ul li a {
   color: #333;
 }
 
-main {
-  padding: 10px 20px 10px 30px;
-  margin-left: 100px;
-}
-
 .post {
-  margin-bottom: 80px;
-  background-color: #fff;
-  border: 8px solid #ddd;
-  border-radius: 5px;
+  margin-left: 770px;
+  display: grid;
   overflow: hidden;
 }
 
+
 .post img {
   object-fit: fill;
+  border-radius: 1.5rem;
   width:auto;
   height: auto;
   display:grid;
@@ -73,11 +71,9 @@ main {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  display: block;
   text-align: center;
-  padding: 50px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 40px;
+  background-color: rgb(44, 44, 44);
+  color: white;
 }
